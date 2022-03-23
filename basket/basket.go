@@ -1,7 +1,7 @@
-package models
+package basket
 
 type Product struct {
-	Id          int    `json:"Id"`
+	Id          int    `json:"id"`
 	Category    string `json:"category"`
 	Title       string `json:"title"`
 	Description string `json:"description"`
